@@ -1,0 +1,50 @@
+1 - Descargar el repositorio público a tu pc. Esto es solamente para opción de lectura.
+
+git clone //dirección URL del repositorio
+
+2- Para modificar y escribir un repositorio, primero hay que loguearse o configurar desde cero un usuario nuevo:
+
+git config --global user.name "Jonathan"
+gir config --global user.email "jonata@jonatha.com"
+
+3- Conectar la computadora a Git con una llave.
+
+ssh-keygen y pegarla en Github web.
+
+4- Crear un repositorio en la máquina para llevar los propios cambios.
+
+git init
+touch README2 (Para no confundir los archivos al conectarse en la otra cuenta)
+git add README2
+git commit - "este es el primer arciv"
+
+5- conectar otro repositorio git remote add origin (direccion de proyecto en github)
+6- traer todo lo que esta en la web a tu repositorio local: git pull origin master
+7- enviar todo codigo a tu repositorio online git push origin master
+8- Fork para hacer una copia del repositorio a tu usuario.
+
+GIT - Iniciar repositorio Local, remoto y compartir.
+
+1- git init
+2- git status (mostrar archivos sin commit)
+3- git add (agregar archivos al stage) por ejemplo git add --all
+4- git commit -m "mensaje"
+5- git log (commit hechos por el usuario)
+6- para volver al estado del archivo anterior git reset HEAD index.php
+7- git remote add origin "direccion del repositorio online a conectar con tu carpeta"
+8- git push -u origin master (enviar al directorio virtual)
+9- git clone /direccion del repositorio online/. Para hacer esto primero hay que crear una carpeta.
+9- git pull (para traer los cambios del repositorio)
+
+
+
+
+
+
+
+
+
+
+
+
+
