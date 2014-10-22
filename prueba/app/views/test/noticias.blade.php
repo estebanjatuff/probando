@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('titulo')
-	titulo desde la vista
+	titulo desde la vista noticias
 @stop
 
 
