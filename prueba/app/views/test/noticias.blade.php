@@ -6,7 +6,7 @@
 
 
 @section('content')
-<h1>Listado de Noticias</h1>
+<h1>Listado de las Noticias</h1>
 		<table class="table table-striped">
         
         <tr>
